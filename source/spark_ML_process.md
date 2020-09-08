@@ -50,7 +50,7 @@ from PIL import Image
 spark = SparkSession \
     .builder \
     .master("yarn") \
-    .appName("PET") \
+    .appName("Image_Process") \
     .config("spark.executor.memory", "20gb") \
     .config("spark.executor.cores", "2") \
     .config("spark.cores.max", "2") \
